@@ -1,0 +1,25 @@
+
+l	java:S116"WRename this field "EmailAddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èèùµ
+n	java:S116"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤•×·şÿÿÿÿ
+m	java:S116"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‡àıÿÿÿÿ
+m	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬›™Âûÿÿÿÿ
+g	java:S116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©
+d	java:S116"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑùÛ
+j	java:S116"PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾ñàúÿÿÿÿ
+j	java:S116"URename this field "PostalCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïõì
+k	java:S116"VRename this field "MobilePhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ”Ì
+e	java:S116"PRename this field "Alias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÉ‡–
+o
+java:S1450"TRemove the "State" field and declare it as a local variable in the relevant methods.(Õ¾ñàúÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÌıÍüÿÿÿÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÅƒN
+c	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¡é“
+h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê«çúÿÿÿÿ
+c	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‹É
+b	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ª©H
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ğš¥ıÿÿÿÿ
+h	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¼Ä†ùÿÿÿÿ
+c	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìğÜÂ
+h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÉÖøøÿÿÿÿ
+D
+java:S1068")Remove this unused "State" private field.(Õ¾ñàúÿÿÿÿ

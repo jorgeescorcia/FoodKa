@@ -1,0 +1,12 @@
+
+n	java:S116"YRename this field "SubjectHeading" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô›ºÍ
+f	java:S116"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Âóy
+u	java:S116"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¥¼‘8¹ó‹Óü/
+z
+java:S1450"]Remove the "SubjectHeading" field and declare it as a local variable in the relevant methods.(ô›ºÍ8ÊˆÏÒü/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û™¶ø8¶ÅØÒü/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ò‚Øøÿÿÿÿ8ìÚŠÓü/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í…–Ëþÿÿÿÿ8ÄâØÒü/
+H
+java:S1068"2Remove this unused "SubjectHeading" private field.(ô›ºÍ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø¯ªÛþÿÿÿÿ

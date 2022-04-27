@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consultar Reservas" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-27T22:35:40" hostname="DESKTOP-2BU34TH" time="33.415">
+  <properties/>
+  <testcase name="Consultar reserva exitosa" classname="Consultar Reservas" time="18.356"/>
+  <testcase name="Consulta de reserva fallida" classname="Consultar Reservas" time="15.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[abr 27, 2022 5:35:41 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.35 (f60a827ddb87f1c403e07713751a5551d5856ac0-refs/branch-heads/4844@{#579}) on port 47180
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651098944.779][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+abr 27, 2022 5:35:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+abr 27, 2022 5:35:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.35 (f60a827ddb87f1c403e07713751a5551d5856ac0-refs/branch-heads/4844@{#579}) on port 32590
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651098960.831][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+abr 27, 2022 5:36:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
