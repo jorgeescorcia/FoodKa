@@ -3,7 +3,7 @@ package question;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import util.register.Mensaje;
+import util.foodka.Mensaje;
 
 public class MensajeReserva implements Question {
 
@@ -13,6 +13,6 @@ public class MensajeReserva implements Question {
 
     @Override
     public Object answeredBy(Actor actor) {
-        return BrowseTheWeb.as(actor).find(Mensaje.Message).getText();
+        return BrowseTheWeb.as(actor).find(Mensaje.MessageReserva).getText();
     }
 }

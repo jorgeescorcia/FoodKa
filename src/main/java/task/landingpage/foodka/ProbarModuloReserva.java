@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 
 
-import static userinterface.foodka.Foodka.*;
+import static userinterface.foodka.ConsultaReserva.*;
 
 
 public class ProbarModuloReserva implements Task {

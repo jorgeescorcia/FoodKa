@@ -1,18 +1,0 @@
-
-n	java:S116"YRename this field "SubjectHeading" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô›ºÍ
-q	java:S116"WRename this field "EmailContact" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™·£üÿÿÿÿ
-n	java:S116"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¥¼‘
-f	java:S116"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Âóy
-z
-java:S1450"]Remove the "SubjectHeading" field and declare it as a local variable in the relevant methods.(ô›ºÍ8í„›Ñü/
-b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼…—n
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹˜“ôüÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì£Ï¿
-c	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öŞœ
-q
-java:S1128"TRemove this unused import 'userinterface.createAccount.CreateAccount.EMAIL_ADDRESS'.(²°Ûƒ8¯»÷Ñü/
-i
-java:S1128"LRemove this unused import 'userinterface.createAccount.CreateAccount.STATE'.(ÁÜ«‹8²»÷Ñü/
-O
-java:S1068"2Remove this unused "SubjectHeading" private field.(ô›ºÍ8§…›Ñü/
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø¯ªÛşÿÿÿÿ

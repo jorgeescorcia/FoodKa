@@ -4,8 +4,8 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-import task.landingpage.foodka.ProbarModuloReserva;
-import util.register.ResumenRegister;
+import setup.Setup;
+import util.foodka.ResumenRegister;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -15,7 +15,7 @@ import static task.landingpage.foodka.NavergaAFoodka.navegaraFoodka;
 import static task.landingpage.foodka.ProbarModuloReserva.probarModuloReserva;
 
 
-public class ConsultarReservasSteps extends Setup{
+public class ConsultarReservasSteps extends Setup {
     Faker faker = new Faker();
     private static final String ACTOR_NAME = "Student";
 
@@ -76,7 +76,7 @@ public class ConsultarReservasSteps extends Setup{
     public void debo_observar_un_mensaje_que_me_indique_que_no_se_pudo_consultar_la_reserva() {
 
         theActorInTheSpotlight().should(
-                seeThat( "el mensaje de reserva fallido es ", ResumenRegister.MessageReservaFallida() , equalTo("No hay reservaciones con este código"))
+                seeThat( "el mensaje de reserva fallido es ", ResumenRegister.MessageConsultaReservaFallida() , equalTo("No hay reservaciones con este código"))
         );
     }
 }
