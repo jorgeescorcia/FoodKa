@@ -16,5 +16,8 @@ public class ResumenRegister {
     public static Question<String> MessageHoraReservaFallida(){
         return actor -> TextContent.of(Mensaje.MessageHoraReservaFallida).viewedBy(actor).asString().trim();
     }
+    public static Question<String> MessageReservaActualizada(){
+        return actor -> TextContent.of(Mensaje.MessageReservaActualizada).viewedBy(actor).asString().trim();
+    }
 
 }

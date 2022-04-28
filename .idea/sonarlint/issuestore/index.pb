@@ -9,5 +9,9 @@ h
 8src/main/java/userinterface/landingpage/LandingPage.java,a\7\a75ea1b8dc031b69398ccec5f287d3fc3a97f6de
 \
 ,src/main/java/userinterface/login/Login.java,b\b\bb0cbbd035d4bb15534c1b11cea41874b0c01fad
-a
-1src/test/java/runner/ConsultarReservasRunner.java,4\4\44800b5547248788da5faf8e42c1804ad31616e1
+N
+src/test/java/setup/Setup.java,3\3\33b1e921209bbf9badae85d224cd4006a3c20378
+i
+9src/main/java/task/landingpage/foodka/NavergaAFoodka.java,d\2\d2252640b230c40717f79771643b98140769e3d2
+c
+3src/main/java/task/landingpage/OpenLandingPage.java,d\c\dc96ff1e885af9920379f450915da828e35e9da9
