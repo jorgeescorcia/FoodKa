@@ -16,7 +16,7 @@ public class CrearReserva extends PageObject {
 
     public static final Target BTN_DIA_FECHA = Target
             .the("BtnDiaFecha")
-            .located(By.xpath("//body/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[5]/button[1]"));
+            .located(By.xpath("//body/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[7]/button[1]"));
 
     public static final Target BTN_NEXT_CALENDARIO = Target
             .the("BtnNext")

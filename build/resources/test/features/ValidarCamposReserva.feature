@@ -9,7 +9,7 @@ Característica: Validacion de campos del formulario
     Cuando lleno la informacion en los campos obligatorios y doy click en el boton Guardar reserva
     Entonces debo observar que la reserva se ha creado satisfactoriamente
 
-  Escenario:  validar campos obligatorios incompletos
+  Escenario:  hora no seleccionada
     Dado Que me encuentro en el modulo de reserva
-    Cuando no lleno informacion en campos obligatorios
-    Entonces debo observar que la reserva no ha sido guardada
+    Cuando no selecciono una hora
+    Entonces debo observar el mensaje que la hora no a sido seleccionada

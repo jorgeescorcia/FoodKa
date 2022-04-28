@@ -1,5 +1,6 @@
 package task.landingpage.foodka;
 
+import com.github.javafaker.Faker;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -9,6 +10,7 @@ import net.serenitybdd.screenplay.actions.Scroll;
 import static userinterface.foodka.CrearReserva.*;
 
 public class CrearNuevaReserva implements Task {
+    Faker faker = new Faker();
 
     private String Nombre;
     private String Apellido;
