@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        features = {"src/test/resources/features/ModificarReserva.feature"},
+        features = {"src/test/resources/features/historiausuario5/ModificarReserva.feature"},
         glue ="stepsdefinition"
 )
 public class ModificarReservaRunner {
