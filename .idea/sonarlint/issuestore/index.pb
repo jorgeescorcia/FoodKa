@@ -15,3 +15,17 @@ i
 9src/main/java/task/landingpage/foodka/NavergaAFoodka.java,d\2\d2252640b230c40717f79771643b98140769e3d2
 c
 3src/main/java/task/landingpage/OpenLandingPage.java,d\c\dc96ff1e885af9920379f450915da828e35e9da9
+l
+<src/main/java/task/landingpage/foodka/CrearNuevaReserva.java,a\d\ad0734d7e383c3238bd6521f9b373f38304cdb13
+i
+9src/main/java/task/landingpage/foodka/ReservaFallida.java,0\e\0e5b92bb82a2495017efaaea3530a56f3930dd61
+l
+<src/test/java/stepsdefinition/ValidarCamposReservaSteps.java,a\8\a8677f5dae2f4800febc1715e25b02ce882bfad3
+C
+serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
+n
+>src/main/java/task/landingpage/foodka/ProbarModuloReserva.java,1\6\1647f3e80f15c577a0ddafe9c078e199d0da5b37
+d
+4src/test/java/runner/ValidarCamposReservaRunner.java,9\5\95fbdcab716fc85e3a7996e7ef9c6dc5c12478cb
+d
+4src/main/java/userinterface/foodka/CrearReserva.java,b\9\b98e2f2cdfaf4377a21336fba00c84dd5ac5af42
