@@ -10,8 +10,8 @@ public class ValidarBtnMisReservasStepDefinition {
     public void meEncuentroEnLaPaginaWeb() {
     }
 
-    @Entonces("debo observar el boton de {string}")
-    public void deboObservarElBotonDe(String string) {
+    @Entonces("debo observar el boton de Mis reservas")
+    public void deboObservarElBotonDeMisReservas() {
     }
 
     @Dado("que me encuentro en la pagina web")
