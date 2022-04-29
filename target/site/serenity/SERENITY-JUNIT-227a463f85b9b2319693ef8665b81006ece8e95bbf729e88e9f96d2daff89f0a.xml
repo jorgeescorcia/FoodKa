@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validar correo" skipped="0" tests="2" time="0.03" timestamp="2022-04-29 01:35:31"><testcase name="Validar correo enviado a cliente por creacion de pedido"/><testcase name="Validar correo a administrador por creacion de pedido"/></testsuite>

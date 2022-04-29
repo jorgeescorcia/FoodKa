@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar calendario" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:34:31" hostname="DESKTOP-2BU34TH" time="0.024">
+  <properties/>
+  <testcase name="Mostrar el formulario de la fecha" classname="Validar calendario" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

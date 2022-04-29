@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Funcionalidad formulario reserva","Validar formulario de reserva","SUCCESS","2022-04-29T13:34:28.866-05:00[America/Bogota]","0.0","0.34"
+"Funcionalidad formulario reserva","Validar formulario fecha reserva","SUCCESS","2022-04-29T13:34:29.223-05:00[America/Bogota]","0.0","0.02"
+"Funcionalidad formulario reserva","Mostrar horarios de la fecha asignada","SUCCESS","2022-04-29T13:34:29.249-05:00[America/Bogota]","0.0","0.02"

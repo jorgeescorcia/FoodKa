@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar boton Modificar Reserva" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:36:23" hostname="DESKTOP-2BU34TH" time="0.039">
+  <properties/>
+  <testcase name="Validar que se pueda modificar reserva" classname="Validar boton Modificar Reserva" time="0.022"/>
+  <testcase name="Validar que no se pueda modificar reserva" classname="Validar boton Modificar Reserva" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

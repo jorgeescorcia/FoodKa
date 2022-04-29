@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="154d97725825d89a76e1a34f32d9d4b753f7016b33319c98378d3b460262c26b.html">Consultar Reservas</a></span>
+                > <span class="truncate-60"><a
+                    href="3b36da50f9d72cdff3781c14872a9ffd18f10e1af8f8745833dc5f77e78f7538.html">Consulta de reserva fallida </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2022 13:35</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Consultar Reservas </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como comensal<br />
+Requiero un botón donde pueda ver mis reservas<br />
+Para modificar la reserva o cancelarla
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Consulta de reserva fallida
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="74e472173ebcd3031c5687cd3809822ebbe405c571caf98e0c1dc26176ce91b7.png" title=" Dado Que me encuentro en la opcion de consultar reserva" width="1920"/>
+                <img src="74e472173ebcd3031c5687cd3809822ebbe405c571caf98e0c1dc26176ce91b7.png" title=" Student open landing page" width="1920"/>
+                <img src="74e472173ebcd3031c5687cd3809822ebbe405c571caf98e0c1dc26176ce91b7.png" title=" Student opens the Landing page" width="1920"/>
+                <img src="cfaf46c80fd4cc70e2fa589a16891dd9084c233eb88bcab1bfd74fa0b84768a1.png" title=" Student opens the Landing page (completed)" width="1920"/>
+                <img src="cfaf46c80fd4cc70e2fa589a16891dd9084c233eb88bcab1bfd74fa0b84768a1.png" title=" Student open landing page (completed)" width="1920"/>
+                <img src="cfaf46c80fd4cc70e2fa589a16891dd9084c233eb88bcab1bfd74fa0b84768a1.png" title=" Student naverga a foodka" width="1920"/>
+                <img src="580097c1a3a492dbd9a3c50033f813be437e809a85e454d243e7a4f0ffb0f672.png" title=" Student naverga a foodka (completed)" width="1920"/>
+                <img src="580097c1a3a492dbd9a3c50033f813be437e809a85e454d243e7a4f0ffb0f672.png" title=" Dado Que me encuentro en la opcion de consultar reserva (completed)" width="1920"/>
+                <img src="87aababbd787cc15851007b2a21bf00c19696e2d45edaaf332e2390435bcf6bd.png" title=" Cuando ingreso el codigo incorrecto" width="1920"/>
+                <img src="87aababbd787cc15851007b2a21bf00c19696e2d45edaaf332e2390435bcf6bd.png" title=" Student probar modulo reserva" width="1920"/>
+                <img src="87aababbd787cc15851007b2a21bf00c19696e2d45edaaf332e2390435bcf6bd.png" title=" Student clicks on BtnMisReservas" width="1920"/>
+                <img src="38fc2c04d8d59e1f04950a0bf400846992c086e94f4b82071819cfc9fdbcdcf4.png" title=" Student clicks on BtnMisReservas (completed)" width="1920"/>
+                <img src="7d3b784c7ab3fb1436447b6e6414a24bf3bc20b003f572f139c60d6a93502418.png" title=" Student enters '1' into InputMisReservas" width="1920"/>
+                <img src="5163ca2b16f3b296e00adc30e6909e2cf5c808fbe05ea6dedb31426bef24ce8a.png" title=" Student enters '1' into InputMisReservas (completed)" width="1920"/>
+                <img src="5163ca2b16f3b296e00adc30e6909e2cf5c808fbe05ea6dedb31426bef24ce8a.png" title=" Student clicks on BtnBuscar" width="1920"/>
+                <img src="442be36d54e587851adc844947e13f3ea9c69b3fb0cf5b6c7cc19bc8145be486.png" title=" Student clicks on BtnBuscar (completed)" width="1920"/>
+                <img src="442be36d54e587851adc844947e13f3ea9c69b3fb0cf5b6c7cc19bc8145be486.png" title=" Student probar modulo reserva (completed)" width="1920"/>
+                <img src="442be36d54e587851adc844947e13f3ea9c69b3fb0cf5b6c7cc19bc8145be486.png" title=" Cuando ingreso el codigo incorrecto (completed)" width="1920"/>
+                <img src="355d3427e273e3aa5f7a3739ca4bd64ab675c4262cda4855d58da85ab0053e0c.png" title=" Entonces debo observar un mensaje que me indique que no se pudo consultar la reserva" width="1920"/>
+                <img src="355d3427e273e3aa5f7a3739ca4bd64ab675c4262cda4855d58da85ab0053e0c.png" title=" Then el mensaje de reserva fallido es  should be 'No hay reservaciones con este c&amp;oacute;digo'" width="1920"/>
+                <img src="355d3427e273e3aa5f7a3739ca4bd64ab675c4262cda4855d58da85ab0053e0c.png" title=" Then el mensaje de reserva fallido es  should be 'No hay reservaciones con este c&amp;oacute;digo' (completed)" width="1920"/>
+                <img src="355d3427e273e3aa5f7a3739ca4bd64ab675c4262cda4855d58da85ab0053e0c.png" title=" Entonces debo observar un mensaje que me indique que no se pudo consultar la reserva (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.2.9</span>
+</div>
+</body>
+</html>

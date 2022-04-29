@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Cancelar Reserva","Cancelacion de reserva","SUCCESS","2022-04-29T13:36:23.208-05:00[America/Bogota]","0.0","0.02"
+"Validar boton Cancelar Reserva","Validar que se pueda cancelar reserva","SUCCESS","2022-04-29T13:36:23.353-05:00[America/Bogota]","0.0","0.02"
+"Validar boton Cancelar Reserva","Validar que no se pueda cancelar reserva","SUCCESS","2022-04-29T13:36:23.376-05:00[America/Bogota]","0.0","0.02"

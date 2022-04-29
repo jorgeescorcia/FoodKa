@@ -7,10 +7,6 @@ U
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 h
 8src/main/java/userinterface/landingpage/LandingPage.java,a\7\a75ea1b8dc031b69398ccec5f287d3fc3a97f6de
-\
-,src/main/java/userinterface/login/Login.java,b\b\bb0cbbd035d4bb15534c1b11cea41874b0c01fad
-N
-src/test/java/setup/Setup.java,3\3\33b1e921209bbf9badae85d224cd4006a3c20378
 i
 9src/main/java/task/landingpage/foodka/NavergaAFoodka.java,d\2\d2252640b230c40717f79771643b98140769e3d2
 c
@@ -19,13 +15,17 @@ l
 <src/main/java/task/landingpage/foodka/CrearNuevaReserva.java,a\d\ad0734d7e383c3238bd6521f9b373f38304cdb13
 i
 9src/main/java/task/landingpage/foodka/ReservaFallida.java,0\e\0e5b92bb82a2495017efaaea3530a56f3930dd61
-l
-<src/test/java/stepsdefinition/ValidarCamposReservaSteps.java,a\8\a8677f5dae2f4800febc1715e25b02ce882bfad3
 C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
-n
->src/main/java/task/landingpage/foodka/ProbarModuloReserva.java,1\6\1647f3e80f15c577a0ddafe9c078e199d0da5b37
-d
-4src/test/java/runner/ValidarCamposReservaRunner.java,9\5\95fbdcab716fc85e3a7996e7ef9c6dc5c12478cb
 d
 4src/main/java/userinterface/foodka/CrearReserva.java,b\9\b98e2f2cdfaf4377a21336fba00c84dd5ac5af42
+V
+&src/main/java/util/foodka/Mensaje.java,5\5\55f4329c3b55f3d6025017acd19d6490cfa2839d
+Z
+*src/main/java/question/MensajeReserva.java,2\a\2a1d51010c872ac4dac4c86f5ad225d42707e606
+^
+.src/main/java/util/foodka/ResumenRegister.java,4\f\4fe308cf8ad5d0c06b9f47aaf3d229d7b8ed03dc
+k
+;src/main/java/task/landingpage/foodka/ModificarReserva.java,9\e\9ea603b7d4a672e7d3a19e840b16a5b6884657e3
+z
+Jsrc/test/java/stepsdefinition/historiausuario4/ConsultarReservasSteps.java,8\5\85c20dd337d91f48f03b548b35379b9218eee10e

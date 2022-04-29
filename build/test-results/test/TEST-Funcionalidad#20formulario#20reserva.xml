@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Funcionalidad formulario reserva" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:34:28" hostname="DESKTOP-2BU34TH" time="0.65">
+  <properties/>
+  <testcase name="Validar formulario de reserva" classname="Funcionalidad formulario reserva" time="0.602"/>
+  <testcase name="Validar formulario fecha reserva" classname="Funcionalidad formulario reserva" time="0.025"/>
+  <testcase name="Mostrar horarios de la fecha asignada" classname="Funcionalidad formulario reserva" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

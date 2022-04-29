@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validar boton Cancelar Reserva" skipped="0" tests="2" time="0.04" timestamp="2022-04-29 01:36:23"><testcase name="Validar que se pueda cancelar reserva"/><testcase name="Validar que no se pueda cancelar reserva"/></testsuite>

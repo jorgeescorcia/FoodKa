@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Funcionalidad formulario reserva" skipped="0" tests="3" time="0.38" timestamp="2022-04-29 01:34:28"><testcase name="Validar formulario de reserva"/><testcase name="Validar formulario fecha reserva"/><testcase name="Mostrar horarios de la fecha asignada"/></testsuite>

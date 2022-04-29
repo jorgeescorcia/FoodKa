@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validar correo de modificacion de reserva" skipped="0" tests="2" time="0.03" timestamp="2022-04-29 01:36:00"><testcase name="Validar correo de modificacion para cliente"/><testcase name="Validar correo de modificacion para administrador"/></testsuite>

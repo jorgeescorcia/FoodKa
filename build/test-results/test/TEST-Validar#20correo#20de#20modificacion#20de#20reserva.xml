@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar correo de modificacion de reserva" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:36:00" hostname="DESKTOP-2BU34TH" time="22.399">
+  <properties/>
+  <testcase name="Validar correo de modificacion para cliente" classname="Validar correo de modificacion de reserva" time="0.027"/>
+  <testcase name="Validar correo de modificacion para administrador" classname="Validar correo de modificacion de reserva" time="0.02"/>
+  <testcase name="Validar correo de cancelacion para cliente" classname="Validar correo de modificacion de reserva" time="0.025"/>
+  <testcase name="Validar correo de cancelacion para administrador" classname="Validar correo de modificacion de reserva" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

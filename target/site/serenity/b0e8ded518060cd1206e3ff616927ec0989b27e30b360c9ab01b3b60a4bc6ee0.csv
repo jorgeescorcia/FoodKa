@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validar correo de modificacion de reserva","Validar correo de modificacion para cliente","SUCCESS","2022-04-29T13:36:00.918-05:00[America/Bogota]","0.0","0.02"
+"Validar correo de modificacion de reserva","Validar correo de modificacion para administrador","SUCCESS","2022-04-29T13:36:00.938-05:00[America/Bogota]","0.0","0.02"
+"Validar boton Modificar Reserva","Validar que se pueda modificar reserva","SUCCESS","2022-04-29T13:36:23.136-05:00[America/Bogota]","0.0","0.01"
+"Validar boton Modificar Reserva","Validar que no se pueda modificar reserva","SUCCESS","2022-04-29T13:36:23.152-05:00[America/Bogota]","0.0","0.01"
+"Validar correo de modificacion de reserva","Validar correo de cancelacion para cliente","SUCCESS","2022-04-29T13:36:23.268-05:00[America/Bogota]","0.0","0.02"
+"Validar correo de modificacion de reserva","Validar correo de cancelacion para administrador","SUCCESS","2022-04-29T13:36:23.289-05:00[America/Bogota]","0.0","0.02"

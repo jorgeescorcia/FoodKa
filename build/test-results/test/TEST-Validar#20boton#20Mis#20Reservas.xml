@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar boton Mis Reservas" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:36:00" hostname="DESKTOP-2BU34TH" time="0.113">
+  <properties/>
+  <testcase name="Mostrar el boton  mis reservas" classname="Validar boton Mis Reservas" time="0.033"/>
+  <testcase name="Mostrar el campo codigo de reserva" classname="Validar boton Mis Reservas" time="0.025"/>
+  <testcase name="Mostrar boton Modificar reserva" classname="Validar boton Mis Reservas" time="0.03"/>
+  <testcase name="Mostrar boton Cancelar reserva" classname="Validar boton Mis Reservas" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

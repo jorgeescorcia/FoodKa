@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar correo" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-29T18:35:31" hostname="DESKTOP-2BU34TH" time="0.038">
+  <properties/>
+  <testcase name="Validar correo enviado a cliente por creacion de pedido" classname="Validar correo" time="0.021"/>
+  <testcase name="Validar correo a administrador por creacion de pedido" classname="Validar correo" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
